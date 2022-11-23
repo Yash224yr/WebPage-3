@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    padding-top: 20px;
+}
+.one h1{
+    color: whitesmoke;
+}
+ul li{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+#wrapper{
+    background-image: url("image/scene\ 1.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+ul li a{
+padding-right: 10px;
+font-size: 15px;
+}
+.one1{
+    margin-left: 250px;
+    margin-top: 40px;
+}
+.one1 h1{
+    color: white;
+}
+.bottom p{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    font-size: 30px;
+    color: white;
+    border-top: 2px solid gray;
+    width: 90%;
+    margin-left: 75px;
+}
